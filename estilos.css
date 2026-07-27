@@ -1,0 +1,59 @@
+body{
+    background-color: lightblue;
+    font-family: Arial, sans-serif;
+}
+
+h1{
+    color: blue;
+    font-size: 24px;
+}
+
+.destacado{
+    font-weight: bold;
+    color: white;
+    background-color: darkblue;
+    padding: 10px;
+}
+
+#principal{
+    text-align: center;
+    color: darkred;
+}
+
+nav{
+    background-color: navy;
+    padding: 10px;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 0;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section{
+    background-color: white;
+    margin: 20px;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+button{
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover{
+    background-color: darkblue;
+}
